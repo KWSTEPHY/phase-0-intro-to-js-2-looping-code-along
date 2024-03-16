@@ -1,11 +1,11 @@
 // Code your solutions in this 
 const names = ["Guadalupe", "Ollie", "Aki"];
-const thankYouCards = writeCards(names, event);
+const thankYouCards = writeCards(names);
 console.log(thankYouCards);
 
 
 
-function writeCards(namesArray, eventName) {
+function writeCards(namesArray) {
 
     const cards = [];
     for (let i = 0; i < namesArray.length; i++) {
